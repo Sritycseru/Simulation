@@ -1,0 +1,6 @@
+seed,a,c,mod=0,1,3,10
+
+for i in range(mod):
+    print(seed, end=' ')
+    seed=(a*seed+c)%mod
+
